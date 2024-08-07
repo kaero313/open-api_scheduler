@@ -20,4 +20,6 @@
 
     <import resource="quartz-scheduler.config.xml" />
 
+    <context:property-placeholder location="classpath:application.properties" />
+
 </beans>
