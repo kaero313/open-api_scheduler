@@ -37,9 +37,11 @@ public class weatherController {
         weatherLocationSet.setCoordX(60);     // 서울시 중구
         weatherLocationSet.setCoordY(127);    // 서울시 중구
         coordXyList.add(weatherLocationSet);
+        weatherLocationSet = new weather();
         weatherLocationSet.setCoordX(61);     // 서울시 강남
         weatherLocationSet.setCoordY(126);    // 서울시 강남
         coordXyList.add(weatherLocationSet);
+        weatherLocationSet = new weather();
         weatherLocationSet.setCoordX(99);     // 부산 해운대
         weatherLocationSet.setCoordY(75);     // 부산 해운대
         coordXyList.add(weatherLocationSet);
